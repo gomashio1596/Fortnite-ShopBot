@@ -1,0 +1,38 @@
+{
+    "text-override": {
+        "categories": {
+            "banner": "Banner",
+            "backpack": "Backpack",
+            "outfit": "Outfit",
+            "contrail": "Contrail",
+            "emote": "Emote",
+            "emoji": "EmoteIcon",
+            "glider": "Glider",
+            "wrap": "Wrap",
+            "loadingscreen": "Loading Screen",
+            "music": "Music",
+            "pet": "Pet",
+            "pickaxe": "Harvesting Tool",
+            "spray": "Spray",
+            "toy": "Toy"
+        },
+        "featured": "Featured",
+        "daily": "Daily",
+        "date": "%Y-%B%#d %A %H:%M:%S",
+        "hour": 0,
+        "language": "en",
+        "auto-specialoffer-convert": {
+            "enabled": false,
+            "default": "Special Offer",
+            "email": "",
+            "password": "",
+            "user-agent": "EpicGamesLauncher/++Fortnite+Release-12.00-CL-11566760 Windows/10.0.17134.1.768.64bit",
+            "launcher_token": "MzQ0NmNkNzI2OTRjNGE0NDg1ZDgxYjc3YWRiYjIxNDE6OTIwOWQ0YTVlMjVhNDU3ZmI5YjA3NDg5ZDMxM2I0MWE=",
+            "fortnite_token": "ZWM2ODRiOGM2ODdmNDc5ZmFkZWEzY2IyYWQ4M2Y1YzY6ZTFmMzFjMjExZjI4NDEzMTg2MjYyZDM3YTEzZmM4NGQ="
+        }
+    },
+    "monitor-change": false,
+    "namefont": "",
+    "categoryfont": "",
+    "api-key": ""
+}
