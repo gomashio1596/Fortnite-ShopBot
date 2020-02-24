@@ -46,6 +46,10 @@ api-key        : Fortnite-API.comのAPIキー 後述
 特別オファーのテキストを取得するにはアカウントにログインし  
 アクセストークンを取得する必要がある
 
+# exchange_codeの入力を求められた
+exchange_codeを[公式サイト](https://www.epicgames.com "epicgames.com")でボットのアカウントにログインし、
+[ログイン](https://www.epicgames.com/id/login?redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Fid%2Fapi%2Fexchange "ログイン")で取得してください
+
 # 時刻形式
 %Y で年  
 %B で月  
