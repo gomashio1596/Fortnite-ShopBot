@@ -3,7 +3,7 @@
 Fortniteのショップ画像ジェネレーター
 
 サンプル
-![itemshop](https://user-images.githubusercontent.com/53356872/75128885-b9b21780-5709-11ea-9e2b-41e23af60981.png)
+![itemshop](https://user-images.githubusercontent.com/53356872/75128937-f67e0e80-5709-11ea-97b7-d7f44223fb3b.png)
 
 # 導入
 [Python 3.5](https://www.python.org/downloads "Pythonダウンロード")以上が必要  
