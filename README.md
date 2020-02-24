@@ -2,6 +2,9 @@
 
 Fortniteのショップ画像ジェネレーター
 
+サンプル
+![itemshop](https://user-images.githubusercontent.com/53356872/75128885-b9b21780-5709-11ea-9e2b-41e23af60981.png)
+
 # 導入
 [Python 3.5](https://www.python.org/downloads "Pythonダウンロード")以上が必要  
 INSTALL.batを実行する  
