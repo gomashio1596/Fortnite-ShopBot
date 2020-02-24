@@ -59,6 +59,9 @@ exchange_codeを[公式サイト](https://www.epicgames.com "epicgames.com")で�
 %M で分  
 %S で秒
 
+# 言語
+en / ar / de / es-419 / es / fr / it / ja / ko / pl / pt-BR / ru / tr / zh-CN / zh-Hant
+
 # APIキー  
 ```
 Discordアカウントが必要
