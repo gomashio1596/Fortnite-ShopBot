@@ -213,6 +213,7 @@ base = "https://www.epicgames.com"
 base_public_service = "https://account-public-service-prod03.ol.epicgames.com"
 launcher_token = "MzQ0NmNkNzI2OTRjNGE0NDg1ZDgxYjc3YWRiYjIxNDE6OTIwOWQ0YTVlMjVhNDU3ZmI5YjA3NDg5ZDMxM2I0MWE=" 
 fortnite_token = "ZWM2ODRiOGM2ODdmNDc5ZmFkZWEzY2IyYWQ4M2Y1YzY6ZTFmMzFjMjExZjI4NDEzMTg2MjYyZDM3YTEzZmM4NGQ="
+ios_token = "MzQ0NmNkNzI2OTRjNGE0NDg1ZDgxYjc3YWRiYjIxNDE6OTIwOWQ0YTVlMjVhNDU3ZmI5YjA3NDg5ZDMxM2I0MWE="
 
 class AuthUtil:
     def get_device_auth_details(self) -> dict:
@@ -262,7 +263,7 @@ class AuthUtil:
         res = session.post(
             "https://account-public-service-prod.ol.epicgames.com/account/api/oauth/token",
             headers={
-                "Authorization": f"basic {launcher_token}"
+                "Authorization": f"basic {ios_token}"
             },
             data={
                 "grant_type": "device_auth",
