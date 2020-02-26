@@ -239,7 +239,7 @@ class ShopBot:
             icon = card["items"][0]["images"]["icon"]["url"]
 
         icon = ImageUtil.GET_Image(self, icon).convert("RGBA")
-        if category == "pickaxe":
+        if category == "backpack" or category == "pickaxe" or category == "glider" or category == "wrap" or category == "music":
             icon = ImageUtil.RatioResize(self, icon, Card.width // 1.6, Card.height // 1.6)
         else:
             icon = ImageUtil.RatioResize(self, icon, Card.width, Card.height)
@@ -255,7 +255,10 @@ class ShopBot:
                     f"color_{backend_rarity}.png").convert("RGBA").resize((Card.width, Card.height)
                 ).convert("RGBA")
             Card.paste(image, (0, 0), image)
-            Card.paste( icon, ImageUtil.CenterX(self, icon.width, Card.width), icon )
+            if category == "backpack" or category == "pickaxe" or category == "glider" or category == "wrap" or category == "music":
+                Card.paste( icon, ImageUtil.CenterX(self, icon.width, Card.width, icon.width // 6), icon )
+            else:
+                Card.paste( icon, ImageUtil.CenterX(self, icon.width, Card.width), icon )
             image = ImageUtil.Open(self, f"card_plate_{rarity}.png").convert("RGBA")
             Card.paste(image, (0, 0), image)
             image = ImageUtil.Open(self, f"card_mask_{rarity}.png").convert("RGBA")
