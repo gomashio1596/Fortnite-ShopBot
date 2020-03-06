@@ -6,7 +6,7 @@ Fortniteのショップ画像ジェネレーター
 ![itemshop](https://user-images.githubusercontent.com/53356872/75128937-f67e0e80-5709-11ea-97b7-d7f44223fb3b.png)
 
 # 導入
-[Python 3.5](https://www.python.org/downloads "Pythonダウンロード")以上が必要  
+[Python 3.6](https://www.python.org/downloads "Pythonダウンロード")以上が必要  
 INSTALL.batを実行する  
 configに情報を書き込む  
 RUN.batを実行する
